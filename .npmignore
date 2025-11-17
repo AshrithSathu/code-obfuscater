@@ -1,0 +1,12 @@
+src/
+tsconfig.json
+*.test.ts
+*.test.js
+jest.config.js
+.eslintrc*
+.gitignore
+node_modules/
+.pnpm-store/
+*.log
+.DS_Store
+

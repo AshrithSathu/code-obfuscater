@@ -1,0 +1,49 @@
+{
+  "name": "code-obfuscater",
+  "version": "1.0.0",
+  "description": "A powerful JavaScript code obfuscator for production builds with irreversible transformations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "code-obfuscater": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "pnpm build",
+    "test": "jest"
+  },
+  "keywords": [
+    "obfuscator",
+    "javascript",
+    "code-obfuscation",
+    "minify",
+    "protect",
+    "production"
+  ],
+  "author": "Ashrith Sathu",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "commander": "^11.1.0",
+    "glob": "^10.3.10",
+    "javascript-obfuscator": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.6",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
