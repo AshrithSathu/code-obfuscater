@@ -4,12 +4,12 @@ A powerful JavaScript code obfuscator for production builds with irreversible tr
 
 ## Features
 
-- 🔒 **Irreversible Obfuscation**: Multiple layers of obfuscation that make code extremely difficult to reverse
-- ⚡ **Multiple Presets**: Choose from low, medium, or high obfuscation levels
-- 📁 **Flexible Input**: Support for single files, directories, or glob patterns
-- 🛠️ **CLI & API**: Use as a command-line tool or import as a library
-- ✅ **Production Ready**: Obfuscated code maintains full functionality
-- 🎯 **Configurable**: Customize obfuscation via CLI flags or config files
+- **Irreversible Obfuscation**: Multiple layers of obfuscation that make code extremely difficult to reverse
+- **Multiple Presets**: Choose from low, medium, or high obfuscation levels
+- **Flexible Input**: Support for single files, directories, or glob patterns
+- **CLI & API**: Use as a command-line tool or import as a library
+- **Production Ready**: Obfuscated code maintains full functionality
+- **Configurable**: Customize obfuscation via CLI flags or config files
 
 ## Installation
 
@@ -269,7 +269,7 @@ async function obfuscateBuild() {
       const filePath = path.join(buildDir, file);
       const result = await obfuscateFile(filePath, { preset: "high" });
       await fs.writeFile(filePath, result.obfuscatedCode);
-      console.log(`✓ Obfuscated ${file}`);
+      console.log(`Obfuscated ${file}`);
     }
   }
 }
