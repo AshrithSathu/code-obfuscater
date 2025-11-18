@@ -304,6 +304,53 @@ module.exports = {
 };
 ```
 
+## How is this different from javascript-obfuscator?
+
+`code-obfuscater` is built on top of `javascript-obfuscator` and provides a simplified, production-focused wrapper with better developer experience:
+
+### Key Differences
+
+**1. Built-in CLI Tool**
+
+- `javascript-obfuscator`: Library only, requires custom CLI setup
+- `code-obfuscater`: Includes ready-to-use CLI with intuitive commands
+
+**2. Preset Configurations**
+
+- `javascript-obfuscator`: Manual configuration of all options
+- `code-obfuscater`: Pre-configured presets (low/medium/high) for quick setup
+
+**3. File Handling**
+
+- `javascript-obfuscator`: Works with code strings, requires manual file I/O
+- `code-obfuscater`: Built-in support for files, directories, and glob patterns
+
+**4. Production Defaults**
+
+- `javascript-obfuscator`: Source maps enabled by default
+- `code-obfuscater`: Source maps disabled by default for irreversible obfuscation
+
+**5. Developer Experience**
+
+- `javascript-obfuscator`: More configuration options, steeper learning curve
+- `code-obfuscater`: Simpler API, faster to get started, better for build pipelines
+
+### When to Use Each
+
+**Use `code-obfuscater` if:**
+
+- You want a simple CLI tool for production builds
+- You prefer preset configurations over manual setup
+- You need to obfuscate multiple files or directories
+- You want production-ready defaults out of the box
+
+**Use `javascript-obfuscator` directly if:**
+
+- You need fine-grained control over every obfuscation option
+- You're building a custom obfuscation tool
+- You need source maps for debugging
+- You want to integrate with specific build tools that have plugins
+
 ## Requirements
 
 - Node.js >= 16.0.0
