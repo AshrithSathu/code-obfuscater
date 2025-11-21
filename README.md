@@ -2,6 +2,11 @@
 
 A powerful JavaScript code obfuscator for production builds with irreversible transformations. This package helps protect your JavaScript code by making it extremely difficult to reverse engineer while maintaining full functionality.
 
+[![npm version](https://img.shields.io/npm/v/code-obfuscater.svg)](https://www.npmjs.com/package/code-obfuscater)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+🔗 **GitHub Repository**: [https://github.com/ashrithsathu/code-obfuscater](https://github.com/ashrithsathu/code-obfuscater)
+
 ## Features
 
 - **Irreversible Obfuscation**: Multiple layers of obfuscation that make code extremely difficult to reverse

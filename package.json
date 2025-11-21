@@ -23,6 +23,14 @@
   ],
   "author": "Ashrith Sathu",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashrithsathu/code-obfuscater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ashrithsathu/code-obfuscater/issues"
+  },
+  "homepage": "https://github.com/ashrithsathu/code-obfuscater#readme",
   "files": [
     "dist",
     "README.md",
