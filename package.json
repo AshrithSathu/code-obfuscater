@@ -1,6 +1,6 @@
 {
   "name": "code-obfuscater",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A powerful JavaScript code obfuscator for production builds with irreversible transformations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
